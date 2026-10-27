@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Carta a Yasmin</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1a0f0b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='19.5' fill='%237a1426'/%3E%3Cg fill='none' stroke='%23ead39c' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' transform='translate(5 4.5) scale(.75)'%3E%3Cpath d='M20 2.5V18M16 6.8H24M6.5 18H33.5M9.5 36.5L12.5 12.5L20 30L27.5 12.5L30.5 36.5'/%3E%3C/g%3E%3C/svg%3E">
+  <link rel="stylesheet" href="recursos/css/carta.css">
+</head>
+<body>
+
+<!--
+  ════════════════════════════════════════════════════════════════════
+   CARTA A YASMIN
+   ────────────────────────────────────────────────────────────────────
+   • As PALAVRAS (título, carta, assinatura, data, dedicatória) ficam
+     aqui, neste arquivo — procure pelas marcas  ✎ .
+   • As FOTOGRAFIAS, ESTAMPAS SACRAS, LEGENDAS e a MÚSICA ficam em
+     personalizar.js.
+   • O guia completo está em LEIA-ME.md.
+  ════════════════════════════════════════════════════════════════════
+-->
+
+<a class="pular" href="#folha-1" data-abrir>Ir direto à carta</a>
+
+<!-- Ornamentos desenhados (usados ao longo da página). Não é preciso mexer. -->
+<svg class="sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="cera" cx="36%" cy="30%" r="78%">
+      <stop offset="0" stop-color="#a8303f"/>
+      <stop offset=".55" stop-color="#7a1426"/>
+      <stop offset="1" stop-color="#4a0914"/>
+    </radialGradient>
+    <radialGradient id="cera-funda" cx="42%" cy="38%" r="72%">
+      <stop offset="0" stop-color="#861b2d"/>
+      <stop offset="1" stop-color="#5a0d1a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- cabeção: ramagem simétrica com espaço para um motivo central -->
+  <symbol id="ramo" viewBox="0 0 320 40">
+    <g id="ramo-metade" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke-width=".85" d="M141 20H31"/>
+      <path stroke-width="1.1" d="M128 20C124 12 113 9 106 12C100 15 101.5 19.5 107 19C111 18.6 111 14.6 108 14.6"/>
+      <path stroke-width="1.1" d="M92 20C88 28 77 31 70 28C64 25 65.5 20.5 71 21C75 21.4 75 25.4 72 25.4"/>
+      <g fill="currentColor" stroke="none">
+        <path d="M120 20C117 24.5 112 26.2 107.5 25.8C110 22.6 114.5 20.8 120 20Z"/>
+        <path d="M84 20C81 15.5 76 13.8 71.5 14.2C74 17.4 78.5 19.2 84 20Z"/>
+        <path d="M56 20C53.5 24 49.5 25.4 45.5 25C47.6 22.3 51.2 20.6 56 20Z"/>
+        <path d="M31 20L25.5 16.5L20 20L25.5 23.5Z"/>
+        <circle cx="13" cy="20" r="1.7"/>
+        <circle cx="6.5" cy="20" r="1.1"/>
+      </g>
+    </g>
+    <use href="#ramo-metade" transform="translate(320 0) scale(-1 1)"/>
+  </symbol>
+
+  <!-- monograma mariano: M encimado pela cruz -->
+  <symbol id="motivo-monograma" viewBox="0 0 40 40">
+    <g fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M20 2.5V18M16 6.8H24M6.5 18H33.5"/>
+      <path d="M9.5 36.5L12.5 12.5L20 30L27.5 12.5L30.5 36.5"/>
+      <path stroke-width="1.6" d="M7 36.5H12M28 36.5H33"/>
+    </g>
+  </symbol>
+
+  <!-- lírio (flor-de-lis) -->
+  <symbol id="motivo-lirio" viewBox="0 0 40 40">
+    <g fill="currentColor">
+      <path d="M20 2C24.5 8 25.5 15 20 23.5C14.5 15 15.5 8 20 2Z"/>
+      <path d="M18.6 23.2C14.5 15.5 7 13.5 4.8 18.5C3.4 22.2 7.2 25.6 10.4 23.4C8.4 23 7.6 20.4 9.6 19.2C12.6 17.6 16.2 20.4 18.6 24.6Z"/>
+      <path d="M21.4 23.2C25.5 15.5 33 13.5 35.2 18.5C36.6 22.2 32.8 25.6 29.6 23.4C31.6 23 32.4 20.4 30.4 19.2C27.4 17.6 23.8 20.4 21.4 24.6Z"/>
+      <rect x="13" y="24" width="14" height="2.6" rx=".6"/>
+      <path d="M17.6 27.6C17 31.6 14.6 34.6 11.2 36.2C15.4 36.6 18.4 34.4 20 30.6C21.6 34.4 24.6 36.6 28.8 36.2C25.4 34.6 23 31.6 22.4 27.6Z"/>
+    </g>
+  </symbol>
+
+  <!-- rosa heráldica -->
+  <symbol id="motivo-rosa" viewBox="0 0 40 40">
+    <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M27.6 9.5L30.6 5.4M32.4 24L37.1 25.6M20 33V38M7.6 24L2.9 25.6M12.4 9.5L9.4 5.4"/>
+    </g>
+    <g fill="currentColor">
+      <circle cx="20" cy="11.6" r="6.6"/>
+      <circle cx="28" cy="17.4" r="6.6"/>
+      <circle cx="24.9" cy="26.8" r="6.6"/>
+      <circle cx="15.1" cy="26.8" r="6.6"/>
+      <circle cx="12" cy="17.4" r="6.6"/>
+    </g>
+    <circle cx="20" cy="20" r="6.3" style="fill: var(--papel, #f2e6cc)"/>
+    <circle cx="20" cy="20" r="4.3" fill="none" stroke="currentColor" stroke-width="1"/>
+    <g fill="currentColor">
+      <circle cx="20" cy="20" r="1.4"/>
+      <circle cx="20" cy="17.2" r=".6"/><circle cx="22.7" cy="19.1" r=".6"/><circle cx="21.6" cy="22.3" r=".6"/>
+      <circle cx="18.4" cy="22.3" r=".6"/><circle cx="17.3" cy="19.1" r=".6"/>
+    </g>
+  </symbol>
+
+  <!-- cantoneira da folha de rosto -->
+  <symbol id="cantoneira" viewBox="0 0 64 64">
+    <g fill="none" stroke="currentColor" stroke-linecap="round">
+      <path stroke-width="1.2" d="M3 62V16Q3 3 16 3H62"/>
+      <path stroke-width=".7" d="M9 62V21Q9 9 21 9H62"/>
+      <path stroke-width="1" d="M15 15C24 11 33 15 31 22C29.5 27 22.5 25.5 23.5 21"/>
+      <path stroke-width="1" d="M15 15C11 24 15 33 22 31C27 29.5 25.5 22.5 21 23.5"/>
+      <path stroke-width=".8" d="M36 9.5C42 13 48 13 56 9.5M9.5 36C13 42 13 48 9.5 56"/>
+    </g>
+    <circle cx="14" cy="14" r="2.2" fill="currentColor"/>
+  </symbol>
+
+  <!-- fio ornado (divisor) -->
+  <symbol id="fio-ornado" viewBox="0 0 200 16">
+    <g fill="currentColor">
+      <path d="M100 2.5L105.5 8L100 13.5L94.5 8Z"/>
+      <path d="M88.5 8L85.5 5L82.5 8L85.5 11Z"/>
+      <path d="M117.5 8L114.5 5L111.5 8L114.5 11Z"/>
+      <circle cx="76" cy="8" r="1.2"/><circle cx="124" cy="8" r="1.2"/>
+    </g>
+    <path d="M6 8H70M130 8H194" fill="none" stroke="currentColor" stroke-width=".8" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- elo vertical entre as fotografias do díptico -->
+  <symbol id="elo" viewBox="0 0 20 80">
+    <g fill="currentColor">
+      <path d="M10 33L15 40L10 47L5 40Z"/>
+      <circle cx="10" cy="26" r="1.3"/><circle cx="10" cy="54" r="1.3"/>
+      <circle cx="10" cy="19" r=".9"/><circle cx="10" cy="61" r=".9"/>
+    </g>
+    <path d="M10 2V13M10 67V78" fill="none" stroke="currentColor" stroke-width=".8" stroke-linecap="round"/>
+  </symbol>
+
+  <!-- vinheta (aparece quando uma fotografia não tem legenda) -->
+  <symbol id="vinheta" viewBox="0 0 90 14">
+    <path d="M6 7C18 2 30 12 42 7M84 7C72 2 60 12 48 7" fill="none" stroke="currentColor" stroke-width=".9" stroke-linecap="round"/>
+    <path d="M45 3.5L48.5 7L45 10.5L41.5 7Z" fill="currentColor"/>
+  </symbol>
+
+  <!-- auréola (nicho à espera de uma estampa) -->
+  <symbol id="aureola" viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="40" fill="none" stroke="currentColor" stroke-width="12" stroke-dasharray="1 5.98" opacity=".5"/>
+    <circle cx="50" cy="50" r="31" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    <circle cx="50" cy="50" r="27.5" fill="none" stroke="currentColor" stroke-width=".7"/>
+  </symbol>
+
+  <!-- selo de lacre com as iniciais -->
+  <symbol id="selo" viewBox="0 0 120 120">
+    <path fill="url(#cera)" d="M112.9 59.7C113.2 65.1 110.7 72.4 109.3 77.3C108 82.1 106.8 85.2 104.6 88.7C102.4 92.3 99.7 94.9 95.9 98.4C92.1 101.9 86.2 107.8 81.8 109.8C77.5 111.8 74.2 109.6 69.8 110.3C65.3 111 60.1 115.2 54.9 114.2C49.7 113.3 44 107 38.4 104.6C32.8 102.2 25.3 102.5 21.3 99.8C17.4 97 16 91.9 14.7 88C13.3 84 13.9 80.5 13.2 75.9C12.5 71.2 10.7 64.6 10.3 59.8C9.9 55.1 10 51.8 10.7 47.5C11.4 43.2 12.3 39 14.5 34.3C16.7 29.5 20 22.7 23.9 18.9C27.8 15.1 33.2 13.4 37.9 11.4C42.7 9.4 47.5 7.3 52.4 7C57.2 6.7 61.4 8.8 67 9.4C72.6 10 81.1 8.9 86.1 10.8C91.1 12.7 94.2 17.3 96.9 20.8C99.5 24.3 100.3 27.6 102.1 31.6C103.8 35.6 105.6 40.1 107.4 44.8C109.2 49.5 112.6 54.3 112.9 59.7Z"/>
+    <circle cx="60" cy="60" r="40.5" fill="none" stroke="#3a0610" stroke-opacity=".38" stroke-width="3"/>
+    <circle cx="60" cy="60" r="38.2" fill="url(#cera-funda)"/>
+    <circle cx="60" cy="60" r="39.6" fill="none" stroke="#ffd6d6" stroke-opacity=".14" stroke-width="1"/>
+    <circle cx="60" cy="60" r="33" fill="none" stroke="#b0404f" stroke-opacity=".7" stroke-width="1.8" stroke-dasharray=".1 4.32" stroke-linecap="round"/>
+    <g font-family="'IM Fell English', Georgia, serif" font-style="italic" font-size="36" text-anchor="middle">
+      <text x="61.2" y="73.2" fill="#2a040a" fill-opacity=".5">V<tspan dx="-8">Y</tspan></text>
+      <text x="59.2" y="71.2" fill="#d06574" fill-opacity=".35">V<tspan dx="-8">Y</tspan></text>
+      <text x="60" y="72" fill="#701324">V<tspan dx="-8">Y</tspan></text>
+    </g>
+    <ellipse cx="41" cy="33" rx="17" ry="8" fill="#fff" fill-opacity=".08" transform="rotate(-34 41 33)"/>
+  </symbol>
+
+  <!-- cul-de-lampe (remate final) -->
+  <symbol id="cul-de-lampe" viewBox="0 0 160 64">
+    <g fill="none" stroke="currentColor" stroke-linecap="round">
+      <path stroke-width=".8" d="M8 12H62M98 12H152"/>
+      <path stroke-width="1.1" d="M66 20C52 20 46 30 54 36C59 39.5 64 35 60.5 32"/>
+      <path stroke-width="1.1" d="M94 20C108 20 114 30 106 36C101 39.5 96 35 99.5 32"/>
+      <path stroke-width=".9" d="M80 25V44"/>
+    </g>
+    <use href="#motivo-rosa" x="69" y="1" width="22" height="22"/>
+    <g fill="currentColor">
+      <path d="M80 44L84 50L80 56L76 50Z"/>
+      <circle cx="80" cy="61" r="1.3"/>
+      <circle cx="69" cy="41" r="1.1"/><circle cx="91" cy="41" r="1.1"/>
+    </g>
+  </symbol>
+</svg>
+
+
+<main class="livro" id="livro">
+
+  <!-- ══════════════════════════════════════════════════════════════
+       FOLHA DE ROSTO
+       ══════════════════════════════════════════════════════════════ -->
+  <section class="folha folha--rosto" id="rosto" aria-labelledby="titulo">
+    <svg class="cantoneira cantoneira--1" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#cantoneira"/></svg>
+    <svg class="cantoneira cantoneira--2" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#cantoneira"/></svg>
+    <svg class="cantoneira cantoneira--3" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#cantoneira"/></svg>
+    <svg class="cantoneira cantoneira--4" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><use href="#cantoneira"/></svg>
+
+    <div class="rosto">
+      <svg class="rosto__monograma" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><use href="#motivo-monograma"/></svg>
+
+      <!-- ✎ TÍTULO -->
+      <h1 class="rosto__titulo" id="titulo">
+        <span class="rosto__sobretitulo">Carta</span>
+        <span class="rosto__preposicao">a</span>
+        <span class="rosto__nome">Yasmin</span>
+      </h1>
+
+      <svg class="fio-ornado" viewBox="0 0 200 16" aria-hidden="true" focusable="false"><use href="#fio-ornado"/></svg>
+
+      <!-- Estampa I — vinheta oval da folha de rosto -->
+      <figure class="estampa estampa--oval" data-estampa="estampa-1" data-imediata></figure>
+
+      <!-- ✎ AUTORIA -->
+      <p class="rosto__autoria">
+        <span class="rosto__por">escrita por</span>
+        <span class="rosto__autor">Vitor</span>
+      </p>
+
+      <div class="fio-duplo" aria-hidden="true"></div>
+
+      <!-- ✎ ANO (em algarismos romanos; pode apagar esta linha) -->
+      <p class="rosto__ano">MMXXVI</p>
+    </div>
+
+    <div class="abertura">
+      <button class="selo" type="button" data-abrir>
+        <svg viewBox="0 0 120 120" aria-hidden="true" focusable="false"><use href="#selo"/></svg>
+        <span class="selo__texto">Abrir a carta</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════════════
+       ✎ DEDICATÓRIA (opcional)
+       Para usar: apague a palavra  hidden  da linha abaixo e troque
+       o texto entre <p> e </p>.
+       ══════════════════════════════════════════════════════════════ -->
+  <section class="folha folha--dedicatoria" aria-label="Dedicatória" hidden>
+    <svg class="fio-ornado" viewBox="0 0 200 16" aria-hidden="true" focusable="false"><use href="#fio-ornado"/></svg>
+    <p class="dedicatoria">Escreva aqui a dedicatória.</p>
+    <svg class="fio-ornado" viewBox="0 0 200 16" aria-hidden="true" focusable="false"><use href="#fio-ornado"/></svg>
+  </section>
+
+
+  <!-- ══════════════════════════════════════════════════════════════
+       FOLHA 1
+       ══════════════════════════════════════════════════════════════ -->
+  <article class="folha folha--texto" id="folha-1" aria-label="Folha 1">
+    <p class="cabeca" aria-hidden="true">Carta a Yasmin</p>
+    <svg class="bandeau" viewBox="0 0 320 40" aria-hidden="true" focusable="false">
+      <use href="#ramo"/>
+      <use class="bandeau__motivo" href="#motivo-monograma" x="146" y="6" width="28" height="28"/>
+    </svg>
+
+    <div class="texto">
+      <!-- ✎ SAUDAÇÃO -->
+      <p class="saudacao">Yasmin,</p>
+
+      <!-- Estampa II — santinho guardado entre as folhas -->
+      <figure class="estampa estampa--santinho" data-estampa="estampa-2"></figure>
+
+      <!-- ✎ CARTA — 1.º parágrafo -->
+      <p class="capitular">Desde a primeira resposta que recebi de Nossa Senhora, soube que todos estes anos de vida teriam um só destino: oferecer o homem que me tornei à mulher que Deus, por sua graça e por sua luz, conduziu até o meu caminho.</p>
+
+      <!-- Fotografias n.º 1 e n.º 2 — díptico -->
+      <div class="diptico">
+        <figure class="foto foto--retrato" data-foto="foto-1"></figure>
+        <svg class="diptico__elo" viewBox="0 0 20 80" aria-hidden="true" focusable="false"><use href="#elo"/></svg>
+        <figure class="foto foto--retrato" data-foto="foto-2"></figure>
+      </div>
+    </div>
+
+    <p class="folio" aria-hidden="true"></p>
+  </article>
+
+
+  <!-- ══════════════════════════════════════════════════════════════
+       FOLHA 2
+       ══════════════════════════════════════════════════════════════ -->
+  <article class="folha folha--texto" id="folha-2" aria-label="Folha 2">
+    <p class="cabeca" aria-hidden="true">Carta a Yasmin</p>
+    <svg class="bandeau" viewBox="0 0 320 40" aria-hidden="true" focusable="false">
+      <use href="#ramo"/>
+      <use class="bandeau__motivo" href="#motivo-lirio" x="146" y="6" width="28" height="28"/>
+    </svg>
+
+    <div class="texto">
+      <div class="par par--estampa">
+        <!-- Estampa III — medalhão -->
+        <figure class="estampa estampa--oval estampa--medalhao" data-estampa="estampa-3"></figure>
+        <!-- ✎ CARTA — 2.º parágrafo (primeira parte) -->
+        <p class="capitular">Não creio em acaso. Não creio que fosse outra senão a vontade de Deus a dispor cada coisa&nbsp;— o tempo, o lugar, a disposição de nossas almas&nbsp;— para que eu me unisse a ti.</p>
+      </div>
+
+      <!-- Fotografia n.º 3 — em destaque, presa no álbum -->
+      <figure class="foto foto--album" data-foto="foto-3"></figure>
+
+      <div class="par par--foto">
+        <!-- Fotografia n.º 4 -->
+        <figure class="foto foto--retrato" data-foto="foto-4"></figure>
+        <!-- ✎ CARTA — 2.º parágrafo (continuação) -->
+        <p>Compreendo que talvez eu ainda não seja o rapaz amado por ti, e não te peço pressa alguma; peço apenas o direito de <span class="inteira">merecer-te</span>. Faria tudo para ser reconhecido aos teus olhos, sempre sob a paterna proteção de Deus.</p>
+      </div>
+    </div>
+
+    <p class="folio" aria-hidden="true"></p>
+  </article>
+
+
+  <!-- ══════════════════════════════════════════════════════════════
+       FOLHA 3
+       ══════════════════════════════════════════════════════════════ -->
+  <article class="folha folha--texto" id="folha-3" aria-label="Folha 3">
+    <p class="cabeca" aria-hidden="true">Carta a Yasmin</p>
+    <svg class="bandeau" viewBox="0 0 320 40" aria-hidden="true" focusable="false">
+      <use href="#ramo"/>
+      <use class="bandeau__motivo" href="#motivo-rosa" x="146" y="6" width="28" height="28"/>
+    </svg>
+
+    <div class="texto">
+      <!-- ✎ CARTA — 3.º parágrafo (primeira parte) -->
+      <p class="capitular capitular--curta">Desde que apareceste na minha vida, parece que Deus não me deixou em paz até que eu te mostrasse o que trago no coração.</p>
+
+      <!-- Fotografias n.º 6, n.º 5 e n.º 7 — recordações coladas -->
+      <div class="colagem">
+        <figure class="foto foto--colada" data-foto="foto-6"></figure>
+        <figure class="foto foto--retrato" data-foto="foto-5"></figure>
+        <figure class="foto foto--colada" data-foto="foto-7"></figure>
+      </div>
+
+      <div class="destaque">
+        <svg class="fio-ornado" viewBox="0 0 200 16" aria-hidden="true" focusable="false"><use href="#fio-ornado"/></svg>
+        <!-- ✎ CARTA — 3.º parágrafo (continuação) -->
+        <p><span class="rubrica">E assim há de ser</span> até o fim dos nossos dias: hei de demonstrar não somente tudo o que sou capaz de fazer pela mulher de quem me apaixonei, mas a fidelidade de quem se entrega inteiro, e para sempre.</p>
+        <svg class="fio-ornado" viewBox="0 0 200 16" aria-hidden="true" focusable="false"><use href="#fio-ornado"/></svg>
+      </div>
+    </div>
+
+    <p class="folio" aria-hidden="true"></p>
+  </article>
+
+
+  <!-- ══════════════════════════════════════════════════════════════
+       FOLHA 4 — encerramento
+       ══════════════════════════════════════════════════════════════ -->
+  <article class="folha folha--texto folha--fecho" id="folha-4" aria-label="Folha 4">
+    <p class="cabeca" aria-hidden="true">Carta a Yasmin</p>
+
+    <div class="texto">
+      <!-- Estampas V, IV e VI — tríptico -->
+      <div class="triptico">
+        <figure class="estampa estampa--arco estampa--ala" data-estampa="estampa-5"></figure>
+        <figure class="estampa estampa--arco" data-estampa="estampa-4"></figure>
+        <figure class="estampa estampa--arco estampa--ala" data-estampa="estampa-6"></figure>
+      </div>
+
+      <div class="despedida">
+        <div class="despedida__palavras">
+          <!-- ✎ DESPEDIDA -->
+          <p class="despedida__voto">Que a Santíssima Virgem te guarde,</p>
+          <!-- ✎ ASSINATURA -->
+          <p class="assinatura">Vitor</p>
+          <svg class="assinatura__floreio" viewBox="0 0 260 40" aria-hidden="true" focusable="false"><path pathLength="1" d="M8 26C44 33 86 32 124 22C154 14 178 8 202 11C224 14 230 27 213 30C199 32.5 192 20 214 15C232 11 247 14 255 19"/></svg>
+          <!-- ✎ DATA (opcional): apague  hidden  e escreva a data -->
+          <p class="despedida__data" hidden>Cidade, dia de mês de ano</p>
+        </div>
+        <svg class="despedida__selo" viewBox="0 0 120 120" aria-hidden="true" focusable="false"><use href="#selo"/></svg>
+      </div>
+
+      <svg class="cul-de-lampe" viewBox="0 0 160 64" aria-hidden="true" focusable="false"><use href="#cul-de-lampe"/></svg>
+    </div>
+
+    <p class="folio" aria-hidden="true"></p>
+  </article>
+
+</main>
+
+<footer class="colofao">
+  <a class="colofao__voltar" href="#rosto">Voltar à folha de rosto</a>
+  <p class="colofao__credito" data-credito-musica hidden></p>
+</footer>
+
+<script src="personalizar.js"></script>
+<script src="recursos/js/carta.js"></script>
+</body>
+</html>

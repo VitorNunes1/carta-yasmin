@@ -1,0 +1,7 @@
+Fontes incluídas neste projeto (todas livres, sob a SIL Open Font License 1.1 — https://openfontlicense.org):
+
+  EB Garamond ............ Georg Duffner e Octavio Pardo
+  IM Fell English / SC ... Igino Marini
+  Pinyon Script .......... Nicole Fally
+
+Obtidas no Google Fonts (subconjunto latino, que cobre todos os acentos do português).
